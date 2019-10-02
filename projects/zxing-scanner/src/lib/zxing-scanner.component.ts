@@ -74,7 +74,7 @@ export class ZXingScannerComponent implements AfterViewInit, OnDestroy {
    * Reference to the preview element, should be the `video` tag.
    */
   @ViewChild('preview', { static: true })
-  previewElemRef: ElementRef<HTMLVideoElement>;
+  previewElemRef: ElementRef; 
 
   /**
    * Enable or disable autofocus of the camera (might have an impact on performance)
